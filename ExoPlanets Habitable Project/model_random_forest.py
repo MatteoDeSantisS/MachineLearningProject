@@ -61,7 +61,7 @@ planetary_stellar_parameter_cols_dict = {   "koi_period":   "Orbital Period",
                                        "koi_smass":      "Stellar Mass"
                                        };
 def load_dataframe():
-    habitable_not_habitable_planet = pd.read_csv("habitable_not_habitable_planets.csv")
+    habitable_not_habitable_planet = pd.read_csv("data/habitable_not_habitable_planet.csv")
     return habitable_not_habitable_planet
 
 
