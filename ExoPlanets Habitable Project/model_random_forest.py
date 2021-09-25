@@ -9,6 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import numpy as np
 from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import GridSearchCV
 
 
 # Planetary and Stellar parameters    
